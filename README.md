@@ -11,7 +11,7 @@ https://www.bls.gov/lau/lastrk18.htm
 #Objective:#
 
 #How is obesity rate affected by income and food access, and how did this affect your likelihood of death during the covid-19 pandemic#
-##########################
+
 
 #Group Members - Bryan Miller, Melissa Sanchez, Leonardo Bolanos#
 
