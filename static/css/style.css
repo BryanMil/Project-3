@@ -1,0 +1,172 @@
+/* styles for map.html */
+
+
+ 
+#top {
+    min-height: 50px;
+    display: flex;
+    width: 100%;
+}
+
+#buttons {
+    margin-top: 10px;
+    text-align: center;
+    min-height: 50px;
+}
+
+#map {
+    height: 830px;
+    border: 2px solid;
+    border-color: rgb(19, 139, 93);
+}
+
+#pageTitle {
+    text-align: center;
+    margin: 5px;
+    font: 32px 'Kodchasan', sans-serif;
+    font-weight: bold;
+    color: saddlebrown;
+    width: 70%;
+}
+
+#home {
+    padding: 5px 5px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    font: 20px 'Kodchasan', sans-serif;
+    font-weight: bold;
+    color: saddlebrown;
+    background-color: khaki;
+    width: 15%;
+}
+
+#home:link {
+    text-decoration: none;
+}
+#home:visited {
+    text-decoration: none;
+}
+
+#home:hover {
+    box-shadow: 2px 2px 5px 1px black;
+    text-decoration: none;
+}
+
+#home:active {
+    outline-color: white;
+    outline-style: solid;
+    box-shadow: 0px 0px 0px 0px black;
+    text-decoration: none;
+}
+
+.info {
+    color: saddlebrown;
+    width: 350px;
+    min-height: 150px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border-radius: 5px;
+    text-align: center;
+    font: 16px 'Kodchasan', sans-serif;
+}
+
+#this_country {
+    margin-top: -15px
+}
+
+th {
+    padding: 10px;
+}
+td {
+    padding: 2px 5px;
+    border-top: 1px solid darkkhaki;
+}
+tr:hover {
+    background-color: palegoldenrod;
+}
+
+.legend {
+    text-align: center;
+    color: saddlebrown;
+    width: 400px;
+    padding: 0px 50px 10px 50px;
+    font: 16px 'Kodchasan', sans-serif;
+    font-weight: bold;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+.legend ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+.legend li {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+}
+.legend .min {
+    float: left;
+    padding-bottom: 2px;
+}
+.legend .max {
+    float: right;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.4);
+    font: 20px 'Kodchasan', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#button0 {
+    background-color: darkkhaki;
+    color: white;
+}
+#button1 {
+    background-color: olive;
+    color: white;
+}
+#button2 {
+    background-color: olivedrab;
+    color: white;
+}
+#button3 {
+    background-color: forestgreen;
+    color: white;
+}
+#button4 {
+    background-color: seagreen;
+    color: white;
+}
+#button5 {
+    background-color: teal;
+    color: white;
+}
+#button6 {
+    background-color: royalblue;
+    color: white;
+}
+#button7 {
+    background-color: blue;
+    color: white;
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px 1px black;
+}
+button:active {
+    outline-color: white;
+    outline-style: solid;
+    box-shadow: 0px 0px 0px 0px black;
+}

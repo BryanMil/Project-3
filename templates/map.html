@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Covid Vs Obesity</title>
+
+    <!-- Leaflet CSS Import-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Leaflet JS Import -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <!--Cloropleth JS Import-->
+    <script type="text/javascript" src="static/js/choropleth.js"></script>
+    <!--Attribute Info import-->
+    <script type="text/javascript" src="static/js/attribute_info.js"></script>
+    <!--Link to CSS stylesheet-->
+    
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <!--Link to Google Font-->
+    <link href='https://fonts.googleapis.com/css?family=Kodchasan' rel='stylesheet'>
+    <!-- D3 Import -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <!--Top of page-->
+   
+    <a href='/covid' id="Income by State">Income by State</a>
+
+    <div class="text">
+        <h1>About The Data</h1>
+        <p>This Data sets we used show the percent of obesity in each state. The goal of this exercise is to compare obesity in each state to Covid Deaths. </p>
+   
+   
+      <p>Select State</p>
+      <select id="selDataset1">
+          <option value="Alabama">Alabama</option>
+          <option value="Alaska">Alaska</option>
+          <option value="Arizona">	Arizona</option>
+          <option value="Arkansas">	Arkansas</option>
+          <option value="California">California	</option>
+          <option value="Colorado">Colorado	</option>
+          <option value="Connecticut">Connecticut	</option>
+          <option value="Delaware">Delaware	</option>
+          <option value="District of Columbia">District of Columbia	</option>
+          <option value="Florida">Florida</option>
+          <option value="Georgia">Georgia	</option>
+          <option value="Hawaii">Hawaii</option>
+          <option value="Idaho"> Idaho</option>
+          <option value="Illinois">Illinois</option>
+          <option value="Indiana">Indiana</option>
+          <option value="Iowa">Iowa</option>
+          <option value="Kansas">Kansas</option>
+          <option value="Kentucky">Kentucky	</option>
+          <option value="Louisiana">Louisiana	</option>
+          <option value="Maine">Maine	</option>
+          <option value="Montana">Montana	</option>
+          <option value="Nebraska">Nebraska	</option>
+          <option value="Nevada">	Nevada</option>
+          <option value="New Hampshire	">New Hampshire</option>
+          <option value="New Jersey">New Jersey</option>
+          <option value="New Mexico">New Mexico	</option>
+          <option value="New York">	New York</option>
+          <option value="North Carolina">	North Carolina</option>
+          <option value="North Dakota">	North Dakota</option>
+          <option value="Ohio">Ohio</option>
+          <option value="Oklahoma">Oklahoma</option>
+          <option value="Oregon">Oregon</option>
+          <option value="Maryland">Maryland</option>
+          <option value="Massachusetts">Massachusetts	</option>
+          <option value="Michigan">Michigan</option>
+          <option value="Minnesota">Minnesota</option>
+          <option value="Mississippi	">Mississippi</option>
+          <option value="Missouri">Missouri</option>
+          <option value="Pennsylvania">Pennsylvania</option>
+          <option value="Rhode Island">Rhode Island</option>
+          <option value="South Carolina">South Carolina</option>
+          <option value="South Dakota">South Dakota</option>
+          <option value="Tennessee">Tennessee</option>
+          <option value="Texas">Texas</option>
+          <option value="Utah">Utah</option>
+          <option value="Vermont">Vermont</option>
+          <option value="Virginia">Virginia</option>
+          <option value="Washington">Washington</option>
+          <option value="West Virginia">West Virginia</option>
+          <option value="Wisconsin">Wisconsin</option>
+          <option value="Wyoming">Wyoming</option>
+      
+        
+      </select>
+  <div>
+    <h2>Confirmed Covid Cases</h2>
+    <div id="plot3"></div>
+    
+    <h2>Confirmed Covid deaths</h2>
+    <div id="plot4"></div>
+    
+    <h2>Obease vs ttl poulation</h2>
+    <div id="plot1"></div>
+
+    <h2>Obesity of each State as a percentage</h2>    
+    <div id="map"></div>
+
+    <div class="container">
+        
+        <div class="card">
+            <h1>Cancer Rate </h1>    
+            <div class="center"><img src="static/Images/Cancer_Rate.gif" alt="Cancer_Rate"></div>
+            <p>The CDC was also able to capture the rates of cancer deaths in the US per 100,000 people. "Cancer counts and rates are essential to measuring progress and targeting action toward this major cause of death among Americans.</p>
+        
+
+
+        </div>
+    </div>
+   
+        
+
+
+        </div>
+    </div>
+
+
+    </div>
+</div>
+
+  
+  
+
+    <!--Link to Javascript File-->
+    <script type="text/javascript" src="{{ url_for('static', filename='js/covid.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/logic1.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/deaths.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
+</body>
+</html>
