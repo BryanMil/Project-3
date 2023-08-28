@@ -1,22 +1,18 @@
 # Project-3
 HTML Java Script/n
 
-Obesity Data 2015
-: https://data-lakecountyil.opendata.arcgis.com/datasets/lakecountyil::national-obesity-by-state.geojson?outSR=
-
-Employment data 2018:
-https://www.bls.gov/lau/lastrk18.htm
-
+Obesity Data 2015: https://data-lakecountyil.opendata.arcgis.com/datasets/lakecountyil::national-obesity-by-state.geojson?outSR=
+Employment data 2018: https://www.bls.gov/lau/lastrk18.htm
 
 # Objective:
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# How is obesity rate affected by income and food access, and how did this affect your likelihood of death during the covid-19 pandemic
+ How is obesity rate affected by income and food access, and how did this affect your likelihood of death during the covid-19 pandemic
 
 
 # Group Members - Bryan Miller, Melissa Sanchez, Leonardo Bolanos
 
-Presentation:
-https://1drv.ms/p/s!AgeEaj6OXGpOgphLXUw-2tEaXyd0fg?e=Djqw6c
+Presentation: Multiple pages unable to upload to git pages
+
 
 
 Project 3 directions:
